@@ -1,0 +1,122 @@
+.titleh4img {
+    font-family: Jost;
+    font-size: 45px;
+    margin:0px;
+    padding:0px;
+    margin-left:10px;
+    margin-right:1200px;
+    width:90px;
+    height:80px;
+}
+
+.title {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+}
+
+.nav li {
+    margin:0px;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-top:3px;
+}
+
+.nav li a {
+    margin:0px;
+    text-decoration: none;
+    color:black;
+    font-family: Jost;
+    font-size: 25px;
+}
+
+.event {
+    margin-top:10px;
+    display: flex;
+}
+
+.event img {
+    width:1200px;
+    height:auto;
+    border: solid 0px;
+    border-radius: 3px;
+    margin-left:10%;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+/* Apply Jost Font Family */
+body, footer {
+    font-family: 'Jost', sans-serif;
+    color: #333;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: white;
+    color: #333;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-info, .footer-links, .footer-social {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-info h3, .footer-links h3, .footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #686868;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-links ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #575757;
+  }
+  
+  .footer-social a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .footer-social a:hover {
+    color: #737373;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
